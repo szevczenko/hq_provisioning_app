@@ -8,7 +8,7 @@ class AppConfig:
     def __init__(self):
         with open('defultConfig.json') as f:
             self.defluat = json.load(f)
-            self.location_config = self.defluat['location_config'] + "\sample.json"
+            self.location_config = self.defluat['location_config'] + "\\sample.json"
 
         if os.path.isfile(self.location_config):
                 with open(self.location_config) as file_read:
