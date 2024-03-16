@@ -54,10 +54,6 @@ class AppConfig:
         return str(self.config)
     
 
-test = AppConfig()
-print(test.get_param("database_adres"))
-test.set_param("database_adres", "127.1.1.0")
-
 if __name__ == "__main__":
     print("Class app_config run here")
     
