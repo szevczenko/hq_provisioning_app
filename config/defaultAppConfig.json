@@ -1,9 +1,6 @@
-
-        
-        {
-            "database_adres": "127.0.0.7",
-            "database_port": "007",
-            "database_login": "user",
-            "database_pass": "pass"
-            
-        }
+{
+    "database_address": "127.0.0.7",
+    "database_port": "007",
+    "database_login": "user",
+    "database_pass": "pass"
+}
