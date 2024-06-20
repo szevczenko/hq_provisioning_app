@@ -1,0 +1,12 @@
+{
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "black-formatter.args": [
+        "--line-length",
+        "100"
+    ],
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 128,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
+}
