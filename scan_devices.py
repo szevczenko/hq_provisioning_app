@@ -23,12 +23,10 @@ class DeviceListener(ServiceListener):
             port = info.port
             mac = info.properties[b"mac"].decode("utf-8")
             _deviceList.append((address, port, mac))
-            print(f"Service {name} added, ip address: {address}")
 
 
 def ScanDevices(name="Bimbrownik", scanning_time_s=3):
-    """Return list of turples: (ip_address: str, port: int) 
-        """
+    """Return list of turples: (ip_address: str, port: int)"""
     _deviceList.clear()
     zeroconf = Zeroconf()
     listener = DeviceListener(name)
