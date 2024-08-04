@@ -2,5 +2,8 @@
     "database_address": "127.0.0.7",
     "database_port": "007",
     "database_login": "user",
-    "database_pass": "pass"
+    "database_pass": "pass",
+    "wifi_ap_ssid": "TP-Link_2AC1",
+    "wifi_ap_password": "19681115",
+    "device_com_port": "COM6"
 }
